@@ -12,7 +12,7 @@ config_s2i
 
 cp -Rf /tmp/src/*.html ./
 DATE=$(date "+%Y-%m-%d")
-echo "la bla created on ${date}" >> ./info.html
+echo "la bla created on ${DATE}" >> ./info.html
 
 ######## CUSTOMIZATION ENDS HERE ############
 
